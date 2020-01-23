@@ -1,0 +1,13 @@
+.messages {
+    height: calc(100% - 120px);
+    overflow-y: auto
+}
+
+.messages * {
+    overflow-anchor: none
+}
+
+.anchor {
+    overflow-anchor: auto;
+    height: 1px;
+}
